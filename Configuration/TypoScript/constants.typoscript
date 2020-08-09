@@ -11,8 +11,8 @@ page {
     logo {
         file = EXT:tanya/Resources/Public/Images/logo.svg
         fileInverted = EXT:tanya/Resources/Public/Images/logo-inverted.svg
-        height = 52
-        width = 192
+        height = 94
+        width = 187
         alt = tanya
         linktitle = tanya
     }
@@ -58,3 +58,9 @@ plugin.bootstrap_package.settings.scss {
     primary = #eb3e4a
     secondary = #013859
 }
+
+################################
+#### ADDED BY EDUARDO FRANK ####
+################################
+#### HAMBURGER FOR ALL DISPLAY SIZES ####
+plugin.bootstrap_package.settings.scss.grid-float-breakpoint = 9999px
